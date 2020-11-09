@@ -15,3 +15,15 @@ t3 = ('df')
 print(type(t1))
 print(type(t2))
 print(type(t3))
+
+# 元组中的数据不支持修改；但是若元组中有列表则列表数据支持修改
+tuple1 = ('aa', 'bb', 'cc', 'dd')
+tuple2 = (10, 12, 13, ['aa', 'bb', 'cc', 'dd'])
+i = 0
+while i < len(tuple2):
+    print(tuple2[i])
+    i += 1
+
+tuple2[3][3] = 'sdfg'
+print(tuple2[3][3])
+print(tuple2)
