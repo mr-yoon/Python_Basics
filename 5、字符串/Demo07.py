@@ -64,9 +64,7 @@ print("-------------------------------------", end="\n\n")
     split():按指定字符分割字符串
         语法：字符串序列.split(分割字符 ，num) num：表示分割字符出现次数
     join():将多个字符串合并为一个新的字符串
-        语法：字符或子串.join(多字符串组成的序列)
-    
-    
+        语法：字符或子串.join(多字符串组成的序列)  
 """
 mystr = 'hello world and itcast and itheima and python'
 
